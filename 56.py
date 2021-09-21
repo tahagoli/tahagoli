@@ -49,9 +49,9 @@ def echo_all(updates):
     if (text =="video"):   
      import telegram
 
-     bot = telegram.Bot('1391583443:kqJ2iD38WLSNQckKhC76iKRfL6E4DyyCZvQrsJu5')
+     bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
-     bot.sendPhoto(chat_id=138511752, photo=open('c:/ax/taha.jpg', 'rb'), timeout=100)
+     bot.sendPhoto(chat_id=138511752, photo=open('taha.jpg', 'rb'), timeout=100)
 
 
     elif (text =="photo"):
@@ -59,13 +59,13 @@ def echo_all(updates):
 
       bot = telegram.Bot('1391583443:kqJ2iD38WLSNQckKhC76iKRfL6E4DyyCZvQrsJu5')
 
-      bot.sendVideo(chat_id=138511752, video=open('c:/ax/zamin.mp4', 'rb'), caption='test')
+      bot.sendVideo(chat_id=138511752, video=open('zamin.mp4', 'rb'), caption='test')
 
 import telegram
 
 from telegram import ReplyKeyboardMarkup
 
-bot = telegram.Bot('1391583443:kqJ2iD38WLSNQckKhC76iKRfL6E4DyyCZvQrsJu5')
+bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
 menu_keyboard = [['video'], ['photo'], ['empty']]
 
