@@ -63,7 +63,7 @@ def echo_all(updates):
 
       bot.sendVideo(chat_id=138511752, video=open('zamin.mp4', 'rb'), caption='test')
 
-import telegram
+
 
 
 bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
