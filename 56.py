@@ -2,7 +2,9 @@ import json
 import requests
 import time
 import urllib
-import ReplyKeyboardMarkup
+
+from telegram import ReplyKeyboardMarkup
+
 
 
 
