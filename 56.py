@@ -2,6 +2,7 @@ import json
 import requests
 import time
 import urllib
+from telegram import ReplyKeyboardMarkup
 
 
 
@@ -63,7 +64,6 @@ def echo_all(updates):
 
 import telegram
 
-from telegram import ReplyKeyboardMarkup
 
 bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
