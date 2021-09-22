@@ -50,27 +50,16 @@ def echo_all(updates):
 
         
       
-import telegram
-from telegram import ReplyKeyboardMarkup 
-
-bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
-
-menu_keyboard = [['video'], ['photo'], ['empty']]
-
-menu_markup = ReplyKeyboardMarkup(menu_keyboard, one_time_keyboard=True, resize_keyboard=True)
-
-bot.send_message(chat_id=138511752, text='pleasse choose one of theme', reply_markup=menu_markup)   
+  
         
         
-        
-        
-    if (text =="video"):   
+     if (text =="video"):   
      import telegram
 
      bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
-     bot.sendPhoto(chat_id=138511752, photo=open('taha.jpg', 'rb'), timeout=100)
-
+     bot.sendPhoto(chat_id=138511752, photo=open('taha.jpg', 'rb'), timeout=100)       
+        
 
     elif (text =="photo"):
       import telegram
@@ -81,7 +70,16 @@ bot.send_message(chat_id=138511752, text='pleasse choose one of theme', reply_ma
   
 
 
+import telegram
+from telegram import ReplyKeyboardMarkup 
 
+bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
+
+menu_keyboard = [['video'], ['photo'], ['empty']]
+
+menu_markup = ReplyKeyboardMarkup(menu_keyboard, one_time_keyboard=True, resize_keyboard=True)
+
+bot.send_message(chat_id=138511752, text='pleasse choose one of theme', reply_markup=menu_markup) 
 
 
             
