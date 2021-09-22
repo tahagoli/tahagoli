@@ -3,7 +3,7 @@ import requests
 import time
 import urllib
 
-from telegram import ReplyKeyboardMarkup
+
 
 
 
@@ -62,9 +62,10 @@ def echo_all(updates):
       bot = telegram.Bot('1391583443:kqJ2iD38WLSNQckKhC76iKRfL6E4DyyCZvQrsJu5')
 
       bot.sendVideo(chat_id=138511752, video=open('zamin.mp4', 'rb'), caption='test')
+  
 
-
-
+import telegram
+import ReplyKeyboardMarkup from telegram 
 
 bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
