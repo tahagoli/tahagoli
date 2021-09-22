@@ -47,7 +47,9 @@ def echo_all(updates):
         chat = update["message"]["chat"]["id"]
 
     if (text =="video"):   
+     import telegram
 
+     bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
      bot.sendPhoto(chat_id=138511752, photo=open('taha.jpg', 'rb'), timeout=100)
 
