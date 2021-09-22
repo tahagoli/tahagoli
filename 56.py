@@ -65,7 +65,7 @@ def echo_all(updates):
   
 
 import telegram
-import ReplyKeyboardMarkup from telegram 
+ from telegram import ReplyKeyboardMarkup 
 
 bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
