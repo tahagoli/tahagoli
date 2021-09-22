@@ -48,6 +48,22 @@ def echo_all(updates):
         text = update["message"]["text"]
         chat = update["message"]["chat"]["id"]
 
+        
+      
+import telegram
+from telegram import ReplyKeyboardMarkup 
+
+bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
+
+menu_keyboard = [['video'], ['photo'], ['empty']]
+
+menu_markup = ReplyKeyboardMarkup(menu_keyboard, one_time_keyboard=True, resize_keyboard=True)
+
+bot.send_message(chat_id=138511752, text='pleasse choose one of theme', reply_markup=menu_markup)   
+        
+        
+        
+        
     if (text =="video"):   
      import telegram
 
@@ -64,16 +80,6 @@ def echo_all(updates):
       bot.sendVideo(chat_id=138511752, video=open('zamin.mp4', 'rb'), caption='test')
   
 
-import telegram
- from telegram import ReplyKeyboardMarkup 
-
-bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
-
-menu_keyboard = [['video'], ['photo'], ['empty']]
-
-menu_markup = ReplyKeyboardMarkup(menu_keyboard, one_time_keyboard=True, resize_keyboard=True)
-
-bot.send_message(chat_id=138511752, text='pleasse choose one of theme', reply_markup=menu_markup) 
 
 
 
